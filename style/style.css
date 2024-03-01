@@ -1,0 +1,458 @@
+*{
+margin: 0;
+padding: 0;}
+
+/*-- ----------------------------------------------   MEDIAQUERIES  ----------------------------------------------- */
+@media (max-width:768px) {
+    #hero{
+        width: 100%;
+        height: 60vw;
+    }
+    .principalTittle{
+        width: 100%;
+        height: 50vw;
+        display: flex;
+        align-items: flex-start;
+    }
+    .principalTittle h1{
+        font-size: 10vw;
+    }
+    .principalTittle h2{
+        font-size: 2vw;
+    }
+
+/*-- --------------   Ofertas  ---------------- */
+
+    .card-img-top{
+        width: 50%;
+        height: auto;
+    }
+    .card-ofertas{
+        margin: 0 10% 0 10%;
+        margin-bottom: 20px;
+    }
+
+    .card-body h5{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .card-body p{
+        font-size: 15px;}
+
+
+
+    #ultimosIngresos{
+        height: 100vw;
+    }
+    /*------------- PERMUTA --------------*/
+    #permuta-tu-auto {
+        padding: 0 3% 0 3%;
+        width: 100%;
+        height: 60vw;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+    #permuta-tu-auto h1{
+        font-size: 3vw;
+    }
+    .permuta-txt {
+        padding: 0 3% 0 3%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 50%;
+        height: 60vw;
+        background-color: #f0f0f0; 
+        font-size: 2.5vw;
+    }   
+    
+    .permuta-img{
+        width: 50%;
+        height: 60vw;
+    }
+    
+    .permuta-img img {
+        width: 100%; 
+        height: 100%;}   
+    /*------------- OTROS SERVICIOS --------------*/
+    #otrosServicios {
+        height: 60vw;
+        background-color: #e3e3e3;
+    }
+    #otrosServicios div{
+        height: 55vw;
+        background-color: #08ffff36;
+    }
+
+    /*-----------------------------PAGE VISITANOS------------------------------------*/
+
+    .sucursal-card-fondo h2 p{
+        width: 40%;
+        height: 30%;
+        padding: 3% 0 3%;
+        background-color: #e3e3e3;
+        border-radius: 5px;
+        font-family:Patua One; 
+        font-weight: lighter;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+
+        }
+        .sucursal-card-fondo h2 {
+            font-size: 3vw;
+            padding-bottom: 0;
+            margin-bottom: 1%;
+            text-align: center;
+        }
+        .sucursal-card-fondo p {
+            font-size: 1.6vw;
+            padding-bottom: 0;
+            margin-bottom: 1%;
+            text-align: center;
+        }
+}
+/* ----------------------------------------- INDEX -----------------------------------------------------*/
+#body{
+    background-color:#1C1D21;
+}
+/*---------------- MAIN -----------------*/
+    /*------------- HERO --------------*/
+#hero{
+    background-image: url(/img/hero.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:start;
+    width: auto;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+}
+
+.principalTittle{
+    width: 35%;
+    height: 38vw;
+    background-color: #0c0d0fd8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding: 3%;
+}
+.principalTittle h1{
+    color:azure;
+    font-size: 7vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.principalTittle h2{
+    color: rgb(196, 208, 208);
+    font-size: 1.5vw;
+    font-family:Patua One; 
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+/*------------- BANNER 1 --------------*/
+#banner-uno{
+    padding: 2% 0 1% 0;
+}
+#banner-uno h1{
+    font-size: 3vw;
+}
+#banner-uno p{
+    font-size: 2vw;
+}
+
+.banner-uno{
+    height: 40vw;
+    display: flex;
+    align-items: end;
+    background-image: url(/img/banner-uno.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: left;
+    color: #FBF0FF;
+}
+/*------------- NUESTRA GAMA --------------*/
+#nuestra-gama{
+    height: auto;
+    padding: 2% 0 2% 0;
+}
+#nuestra-gama h2{
+    font-size: 2vw;
+    padding-bottom: 2%;
+}
+.nuestra-gama{
+    height: auto;
+    background-color: #151515;
+    text-transform: capitalize;
+    color: #FBF0FF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2% 0 2% 0;
+}
+.nuestra-gama-Items a{
+    margin: 0 1% 0 1%;
+}
+.nuestra-gama-Items img {
+   width: 8%;
+    height: 100%;
+}
+
+ /*------------- OFERTAS --------------*/
+ #ofertas h1{
+    font-size: 2vw;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-align: start;
+    color: #CBF7ED;
+    padding-bottom: 2%;    
+}
+
+.bk-ofertas{
+    margin: 1%;
+    padding: 3%;
+    background-color: #111111;
+    height: auto;
+}
+.card-ofertas{
+    width: auto;
+    height: auto;
+    padding: 3%;
+    margin: 1%;
+}
+
+.card-body h5{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.card-body p{
+    font-size: 1.3vw;
+}
+ /*------------- ULTIMOS INGRESOS --------------*/
+
+.bk-ingresos{
+    width: 100%;
+    height: 100%;
+    background-color: #1313133b;
+    margin: 0 0 5% 0;
+    padding-top: 5%;
+}
+#ultimos-ingresos h1{
+    font-size: 3vw;
+    color: #FBF0FF;
+}
+
+ /*------------- PERMUTA --------------*/
+ #permuta-tu-auto {
+    padding: 0 3% 0 3%;
+    width: 100%;
+    height: 30vw;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.permuta-txt {
+    padding: 0 3% 0 3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    height: 30vw;
+    background-color: #f0f0f0; 
+    
+}   
+
+.permuta-img{
+    width: 50%;
+    height: 30vw;
+}
+
+.permuta-img img {
+    width: 100%; 
+    height: 100%;
+}
+ /*------------- CSS BOTON RECURSO --------------*/
+ .button-27 {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20vw;
+    height: 20%;
+    will-change: transform;
+  }
+  
+  .button-27:disabled {
+    pointer-events: none;
+  }
+  
+  .button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+ /*------------- OTROS SERVICIOS --------------*/
+#otrosServicios {
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#otrosServicios div{
+    width: 100%;
+    height: 98%;
+}
+
+ /*------------- FOOTER --------------*/
+.bk-footer{
+    background-color: #000000;
+    color: #e3e3e3;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.logo-footer{
+    width: 4rem;
+    height: 100%;
+}
+.bk-footer2{
+    background-color: #000000;
+    color: #e3e3e3;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+.bk-footer3{
+    background-color: #000000;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 2% 0;
+}
+
+.bk-footer3 a img{
+    width: 2vw;
+    height: 100%;
+}
+
+.bk-footer3 a{
+    padding: 0 0.5% 0 0.5%;
+}
+
+
+
+/* ----------------------------------------------- PAGE VISITANOS ---------------------------------------------------*/
+
+#hero-Visitanos{
+    background-image: url(/img/visitanos/agencia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:start;
+    width: auto;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+}
+
+.principalTittle-Visitanos{
+    width: 50%;
+    height: 38vw;
+    background-color: #0c0d0f00;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding: 3%;
+}
+.principalTittle-Visitanos h1{
+    color: azure;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.principalTittle-Visitanos h2{
+    color: rgb(196, 208, 208);
+    font-size: 1.5vw;
+    font-family:Patua One; 
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+/* ------------------- MAP -----------------------*/
+
+.bk-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sucursal-card-fondo{
+padding:1% 3% 0 3%;
+margin: 2% 0 2% 0;
+background-color: #e3e3e3;
+border-radius: 5px;
+font-size: 1vw;
+font-family:Patua One; 
+font-weight: lighter;
+text-transform: uppercase;
+}
+
+.map{
+    width: 100%;
+    height: 40vw;
+}
+
+/* -------------------- VIDEO SUCURSAL --------------------------*/
+.video-sucursal{
+    width: 100%;
+    height: 50vw;
+}
